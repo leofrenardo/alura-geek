@@ -1,0 +1,41 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Nintendo Nes",
+      "precio": "80.000",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/NES-Console-Set.png/1920px-NES-Console-Set.png"
+    },
+    {
+      "id": "2",
+      "nombre": "Super Nintendo",
+      "precio": "250.000",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/3/36/SNES-Mod1-Console-Set.png"
+    },
+    {
+      "id": "3",
+      "nombre": "Nintendo 64",
+      "precio": "300.000",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nintendo-64-wController-L.jpg/1920px-Nintendo-64-wController-L.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Nintendo Game Cube",
+      "precio": "85.000",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/GameCube-Console-Set.png/800px-GameCube-Console-Set.png"
+    },
+    {
+      "id": "5",
+      "nombre": "Nintendo Wii",
+      "precio": "120.000",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Wii_console.png/600px-Wii_console.png"
+    },
+    {
+      "id": "6",
+      "nombre": "Nintendo DS",
+      "precio": "60.000",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nintendo-DSi-XL-Burg.jpg/1024px-Nintendo-DSi-XL-Burg.jpg"
+    }
+   
+     ]
+}

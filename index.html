@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <header>
+        <a><img src="assets/img/corazones.png" alt="logo" class="logo" ></a>
+        <h1>AluraGeek</h1>
+    </header>
+    <main>
+
+        <section class="products">
+            <h1 class="products__title">Mis Productos:</h1>
+            <div class="lista-card" data-lista>        
+            </div>
+        </section>
+
+        <section class="addproduct">
+            <h1 class="addproduct__title">Agregar Producto:</h1>
+            <form class="addproduct__form" data-form>
+                <input class="addproduct__input" type="text" name="name" placeholder="Nombre..." required  data-nombre-producto>
+                    <span class="invalid_input_message"></span>
+                <input class="addproduct__input" type="text" name="price" placeholder="Precio..." required  data-precio-producto>
+                    <span class="invalid_input_message"></span>
+                <input class="addproduct__input" type="text" name="image" placeholder="URL de imagen..." required  data-imagen-producto>
+                    <span class="invalid_input_message"></span>
+                   <div class="botones">
+                <button class="addproduct__button boton-enviar" type="submit">Enviar</button>
+                <button class="addproduct__button boton-limpiar" type="reset">Limpiar</button></div>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="logo-footer" >
+            <img src="assets/img/corazones.png" alt="logo">
+            <h2>AluraGeek</h2>
+         </div>
+        <p>Desarrollado por <b>Leonardo Medina</b></p>
+        <p>Alura LATAM - 2024</p>
+    </footer>
+
+    <script src="/js/mostrarProductos.js" type="module"></script>
+</body>
+
+</html>
